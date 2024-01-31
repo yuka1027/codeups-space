@@ -1,0 +1,12 @@
+.data__items {
+    display: flex;
+    max-width: rem(1440);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data__gender,
+.data__age {
+    width: 50%;
+}

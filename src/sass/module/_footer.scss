@@ -1,0 +1,14 @@
+.footer {
+    color: #EBEBEB;
+    background-image: url(/assets/images/common/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: calc(128 / 1440 * 100vw);
+}
+
+.footer__copyright {
+    text-align: center;
+    font-size: rem(12);
+    padding-top: (68/ 1440 * 100vw);
+}

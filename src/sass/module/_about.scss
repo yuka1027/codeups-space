@@ -17,10 +17,6 @@
     font-size: rem(50);
 }
 
-.about__title span:nth-child(1) {
-
-}
-
 .about__title span:nth-child(2) {
     top: rem(10);
     transform: rotate(15deg);
@@ -69,4 +65,32 @@
 .about__title span:nth-child(11) {
     top: rem(10);
     transform: rotate(15deg);
+}
+
+.about__item:nth-child(2) {
+    margin-top: rem(122);
+}
+
+.about__item:nth-child(3) {
+    margin-top: rem(131);
+}
+
+.about__item:nth-child(4) {
+    margin-top: rem(122);
+}
+
+.about__item:nth-child(odd) {
+    margin-left: auto;
+}
+
+.about__inner.l-inner {
+    max-width: rem(1090);
+}
+
+.about__noza-img {
+    width: rem(980);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: rem(121);
 }
