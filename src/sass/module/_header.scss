@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: (80 / 1440) * 100vw;
+    padding: 0 (40 / 1440) *100vw;
+}
+
+.header__title {
+    width: (138 / 1440) *100vw;
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.header__logo {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}

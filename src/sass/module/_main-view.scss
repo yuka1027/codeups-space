@@ -1,0 +1,16 @@
+.main-view {
+    height: (730 / 1440) * 100vw;
+    background-image: url(/assets/images/common/mv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    padding-left: (200 / 1440) * 100vw;
+}
+
+// vwで管理してもOK！ padding-topで比率管理でもOK! aspect-ratio使ってもおk！
+
+.main-view__title {
+    width: (640 / 1440) * 100vw;
+}
