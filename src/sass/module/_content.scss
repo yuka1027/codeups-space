@@ -7,8 +7,8 @@
     font-size: rem(50);
     font-weight: $bold;
     position: absolute;
-    top: rem(170);
-    left: calc(50% - 520px);//中央に寄せてから【50%】計算するとレスポンシブしやすくなる
+    top: rem(195);
+    left: calc(50% - 535px);//中央に寄せてから【50%】計算するとレスポンシブしやすくなる
 }
 
 .content__title span {
@@ -17,22 +17,28 @@
 }
 
 .content__title span:nth-child(1) {
-    top: 20px;
-    transform: rotate(-12deg);
+    top: rem(23);
+    left: rem(7);
+    transform: rotate(-14deg);
 }
 
 .content__title span:nth-child(2) {
+    top: rem(8);
+    left: rem(4);
     transform: rotate(-12deg);
 }
 
 
 .content__title span:nth-child(3) {
-    transform: rotate(-12deg);
+    top: rem(-9);
+    transform: rotate(-6deg);
 }
 
 
 .content__title span:nth-child(4) {
-    transform: rotate(12deg);
+    top: rem(-13);
+    left: rem(-3);
+    transform: rotate(5deg);
 }
 
 .content__inner {
@@ -56,23 +62,24 @@
 }
 
 .content__item:nth-child(1) {
-    top: rem(-210);
-    left: 50%;
+    top: rem(-160);
+    left: calc(50% - #{rem(7)});
     transform: translateX(-50%);
 
 }
 
 .content__item:nth-child(2) {
-    top: rem(260);
+    top: rem(285);
+    left: rem(18);
 }
 
 .content__item:nth-child(3) {
-    top: rem(360);
-    right: rem(30);
+    top: rem(382);
+    right: rem(10);
 }
 
 .content__img {
-    width: rem(410);
+    width: rem(427);
     position: relative;
 }
 

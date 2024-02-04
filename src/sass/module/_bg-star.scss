@@ -6,7 +6,7 @@
 .bg-star::before {
     content: '';
     position: absolute;
-    top: rem(8);
+    top: rem(7);
     left: 0;
     background-image: url(/assets/images/common/bg-left.png);
     background-repeat: no-repeat;
@@ -15,6 +15,7 @@
     width: calc(613 / 1440 * 100vw);
     height: calc(4980 / 1440 * 100vw);
     z-index: -999;
+    max-height: rem(4972);
 }
 
 .bg-star::after {
@@ -28,5 +29,6 @@
     background-position: top;
     width: calc(831 / 1440 * 100vw);
     height: calc(4095 / 1440 * 100vw);
+    max-height: rem(4987);
     z-index: -999;
 }

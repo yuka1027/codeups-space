@@ -16,7 +16,7 @@
     line-height: 1.66667;
     letter-spacing: 0.02em;
     font-weight: $normal;
-    margin-top: rem(24);
+    margin-top: rem(19);
 }
 
 .about-block__img {
@@ -25,26 +25,30 @@
 
 .about-block__img.about-block__img--1 {
     width: rem(355);
-    left: rem(-490);
+    top: rem(-11);
+    left: rem(-497);
     @include mq("img") {
         left: rem(-390);
     }
 }
 
 .about-block__img.about-block__img--2 {
-    width: rem(355);
-    right: rem(-427);
+    width: rem(486);
+    right: rem(-513);
+    top: rem(-70);
 }
 
 .about-block__img.about-block__img--3 {
-    width: rem(350);
-    left: rem(-490);
+    width: rem(374);
+    left: rem(-501);
+    top: rem(-45);
     @include mq("img") {
         left: rem(-390);
     }
 }
 
 .about-block__img.about-block__img--4 {
-    width: rem(387);
-    right: rem(-427);
+    width: rem(418);
+    top: rem(-22);
+    right: rem(-485);
 }
