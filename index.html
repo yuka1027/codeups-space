@@ -23,8 +23,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script defer type="text/javascript" src="./assets/js/gsap.js"></script>
   <script defer type="text/javascript" src="./assets/js/script.js"></script>
 </head>
 <body>
@@ -36,7 +40,7 @@
     </h1>
   </header>
   <div class="main-view">
-    <div class="main-view__title">
+    <div class="main-view__title js-main-title">
       <img src="/assets/images/common/text.png" alt="宇宙を知った人間は、
       決して前と同じ
       人間ではいられない">
@@ -45,15 +49,16 @@
 
   <div class="bg-star">
     <div class="movie section-movie">
-      <div class="movie__img">
+      <div class="movie__img js-movie">
         <img src="/assets//images/common/movie.jpg" alt="movie">
       </div>
     </div>
 
-    <section class="about section-about">
+    <section class="about section-about js-about">
       <div class="about__header">
-        <h2 class="about__title">
-          <span>宇</span>
+        <h2 class="about__title js-span">
+          宇宙飛行士ってこんな仕事
+          <!-- <span>宇</span>
           <span>宙</span>
           <span>飛</span>
           <span>行</span>
@@ -64,7 +69,7 @@
           <span>ん</span>
           <span>な</span>
           <span>仕</span>
-          <span>事</span>
+          <span>事</span> -->
         </h2>
       </div>
 
