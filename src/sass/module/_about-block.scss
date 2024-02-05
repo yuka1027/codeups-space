@@ -9,6 +9,9 @@
     font-size: rem(30);
     font-weight: $bold;
     line-height: 1;
+    @include mq("md") {
+        font-size: rem(24);
+    }
 }
 
 .about-block__text {
@@ -17,6 +20,9 @@
     letter-spacing: 0.02em;
     font-weight: $normal;
     margin-top: rem(19);
+    @include mq("md") {
+        font-size: rem(14);
+    }
 }
 
 .about-block__img {
@@ -30,12 +36,26 @@
     @include mq("img") {
         left: rem(-390);
     }
+    @include mq("md") {
+        width: rem(200);
+        top: rem(140);
+        left: calc(100% - 200px);
+    }
 }
 
 .about-block__img.about-block__img--2 {
     width: rem(486);
     right: rem(-513);
     top: rem(-70);
+    @include mq("inner") {
+        display: none;
+    }
+    @include mq("md") {
+        display: block;
+        width: rem(200);
+        top: rem(140);
+        right: calc(100% - 200px);
+    }
 }
 
 .about-block__img.about-block__img--3 {
@@ -45,10 +65,24 @@
     @include mq("img") {
         left: rem(-390);
     }
+    @include mq("md") {
+        width: rem(200);
+        top: rem(120);
+        left: calc(100% - 200px);
+    }
 }
 
 .about-block__img.about-block__img--4 {
     width: rem(418);
     top: rem(-22);
     right: rem(-485);
+    @include mq("inner") {
+        display: none;
+    }
+    @include mq("md") {
+        display: block;
+        width: rem(200);
+        top: rem(140);
+        right: calc(100% - 200px);
+    }
 }

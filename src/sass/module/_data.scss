@@ -4,9 +4,16 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    @include mq("md") {
+        flex-direction: column;
+    }
 }
 
 .data__gender,
 .data__age {
     width: 50%;
+    @include mq("md") {
+        width: 80%;
+        margin: auto;
+    }
 }

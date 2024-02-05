@@ -1,6 +1,9 @@
 .bg-star {
     margin-top: rem(-50);
     position: relative;
+    @include mq("md") {
+        margin-top: 0;
+    }
 }
 
 .bg-star::before {
@@ -16,6 +19,9 @@
     height: calc(4980 / 1440 * 100vw);
     z-index: -999;
     max-height: rem(4972);
+    @include mq("md") {
+        display: none;
+    }
 }
 
 .bg-star::after {
@@ -31,4 +37,7 @@
     height: calc(4095 / 1440 * 100vw);
     max-height: rem(4987);
     z-index: -999;
+    @include mq("md") {
+        display: none;
+    }
 }

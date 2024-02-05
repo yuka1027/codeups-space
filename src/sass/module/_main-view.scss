@@ -7,6 +7,9 @@
     display: flex;
     align-items: center;
     padding-left: (200 / 1440) * 100vw;
+    @include mq("md") {
+        padding-left: (40 / 375) * 100vw;
+    }
 }
 
 // vwで管理してもOK！ padding-topで比率管理でもOK! aspect-ratio使ってもおk！

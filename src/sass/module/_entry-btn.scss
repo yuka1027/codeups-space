@@ -3,4 +3,9 @@
     width: rem(180);
     top: calc(581 / 1440 * 100vw);
     right: calc(200 / 1440 * 100vw);
+    @include mq("md") {
+        width: rem(80);
+        top: calc(250 / 767 * 100vw);
+        right: rem(10);
+    }
 }

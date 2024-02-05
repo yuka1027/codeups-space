@@ -6,6 +6,9 @@
     max-width: rem(1050);
     padding: 0 rem(25);
     margin: auto;
+    @include mq("md") {
+        max-width: rem(540);
+    }
 }
 
 .recruit__title {
@@ -15,6 +18,9 @@
     line-height: 1.2857142;
     position: relative;
     display: inline-block;
+    @include mq("md") {
+        font-size: rem(24);
+    }
 }
 
 .recruit__title::after {
@@ -30,11 +36,17 @@
 
 .recruit__items {
     margin-top: rem(51);
+    @include mq("md") {
+        margin-top: rem(24);
+    }
 }
 
 .recruit__item {
     display: flex;
     color: white;
+    @include mq("md") {
+        flex-direction: column;
+    }
 }
 
 .recruit__term {
@@ -47,6 +59,11 @@
     border-bottom: 2px solid #99D4D9;
     display: flex;
     align-items: center;
+    @include mq("md") {
+        max-width: initial;
+        border-bottom: none;
+        padding: rem(13) 0 0 0;
+    }
 }
 
 .recruit__description {
@@ -59,13 +76,26 @@
     padding-bottom: rem(15);
     margin-left: rem(10);
     border-bottom: 2px solid #EBEBEB;
+    @include mq("md") {
+        border-bottom: 1px solid #EBEBEB;
+        margin-left: 0;
+        padding-left: rem(12);
+        padding-right: rem(12);
+        font-size: rem(14);
+    }
 }
 
 .recruit__item:first-child {
     .recruit__term {
         border-top: 2px solid #99D4D9;
+        @include mq("md") {
+            border-top: 1px solid #ebebeb;
+        }
     }
     .recruit__description {
         border-top: 2px solid #EBEBEB;
+        @include mq("md") {
+            border-top: none;
+        }
     }
 }
