@@ -705,6 +705,8 @@ select::-ms-expand {
   margin-top: -50px;
   margin-top: -3.125rem;
   position: relative;
+  z-index: -999;
+  overflow-x: clip;
 }
 
 @media screen and (max-width: 767px) {
@@ -728,6 +730,8 @@ select::-ms-expand {
   z-index: -999;
   max-height: 4972px;
   max-height: 310.75rem;
+  max-width: 613px;
+  max-width: 38.3125rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -750,6 +754,8 @@ select::-ms-expand {
   height: 284.375vw;
   max-height: 4987px;
   max-height: 311.6875rem;
+  max-width: 831px;
+  max-width: 51.9375rem;
   z-index: -999;
 }
 

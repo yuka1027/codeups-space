@@ -1,6 +1,8 @@
 .bg-star {
     margin-top: rem(-50);
     position: relative;
+    z-index: -999;
+    overflow-x: clip;
     @include mq("md") {
         margin-top: 0;
     }
@@ -19,6 +21,7 @@
     height: calc(4980 / 1440 * 100vw);
     z-index: -999;
     max-height: rem(4972);
+    max-width: rem(613);
     @include mq("md") {
         display: none;
     }
@@ -36,6 +39,7 @@
     width: calc(831 / 1440 * 100vw);
     height: calc(4095 / 1440 * 100vw);
     max-height: rem(4987);
+    max-width: rem(831);
     z-index: -999;
     @include mq("md") {
         display: none;
